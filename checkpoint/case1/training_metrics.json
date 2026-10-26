@@ -1,0 +1,119 @@
+{
+  "dataset": {
+    "id": "lerobot/pusht_keypoints",
+    "revision": "ace8c161a68bc025c21a5f29f85b86a9a2c5e64b",
+    "episodes": 206,
+    "frames": 25650
+  },
+  "training": {
+    "seed": 42,
+    "epochs": 10,
+    "batch_size": 128,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "torch_threads": 4
+  },
+  "split": {
+    "method": "episode",
+    "validation_ratio": 0.2,
+    "seed": 42,
+    "validation_episodes": [
+      154,
+      26,
+      101,
+      46,
+      38,
+      7,
+      79,
+      104,
+      150,
+      56,
+      20,
+      184,
+      108,
+      24,
+      146,
+      98,
+      196,
+      37,
+      197,
+      50,
+      96,
+      195,
+      159,
+      132,
+      167,
+      107,
+      25,
+      202,
+      149,
+      168,
+      75,
+      70,
+      106,
+      51,
+      9,
+      94,
+      152,
+      119,
+      198,
+      203,
+      201
+    ]
+  },
+  "environment": {
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "python": "3.13.16",
+    "pytorch": "2.11.0+cpu",
+    "lerobot": "0.6.1",
+    "gym_pusht": "0.1.8",
+    "device": "cpu"
+  },
+  "policy_config": "config.json",
+  "seconds": 157.99695484099993,
+  "history": [
+    {
+      "epoch": 1,
+      "train": 0.39389784162088953
+    },
+    {
+      "epoch": 2,
+      "train": 0.32444279793626774
+    },
+    {
+      "epoch": 3,
+      "train": 0.3033485464427782
+    },
+    {
+      "epoch": 4,
+      "train": 0.2896421912664212
+    },
+    {
+      "epoch": 5,
+      "train": 0.27978366733708,
+      "validation": 0.2826227520297213
+    },
+    {
+      "epoch": 6,
+      "train": 0.27383322264096754
+    },
+    {
+      "epoch": 7,
+      "train": 0.2663979794112792
+    },
+    {
+      "epoch": 8,
+      "train": 0.2613364512690846
+    },
+    {
+      "epoch": 9,
+      "train": 0.2566372753115174
+    },
+    {
+      "epoch": 10,
+      "train": 0.2530457693042222,
+      "validation": 0.2770028085243411
+    }
+  ]
+}
