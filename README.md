@@ -1,0 +1,1 @@
+PhysicalAI応用講座１の最終課題のNOTEBOOKデータなどを保管しています。
