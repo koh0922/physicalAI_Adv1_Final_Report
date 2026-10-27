@@ -1,0 +1,2 @@
+episode_index,length,nan_or_inf,max_agent_step,max_action_step,max_reward,max_action_state_distance,stationary_ratio,flags,candidate
+205,49,False,23.557479858398438,36.055511474609375,0.8254669904708862,58.35859298706055,0.0,too_short,True
