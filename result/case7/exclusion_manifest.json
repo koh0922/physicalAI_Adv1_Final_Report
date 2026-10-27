@@ -1,0 +1,19 @@
+{
+  "rule_version": "1.0.0",
+  "excluded_episode_ids": [
+    3,
+    54,
+    107,
+    116,
+    121,
+    159
+  ],
+  "thresholds": {
+    "min_episode_length": 50,
+    "max_action_step": 80.0,
+    "max_agent_step": 80.0,
+    "max_action_state_distance": 120.0,
+    "max_stationary_ratio": 0.1
+  },
+  "reason": "replay_confirmed"
+}
