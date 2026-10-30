@@ -1,0 +1,117 @@
+{
+  "checkpoint": "artifacts/checkpoints/lerobot-act",
+  "dataset": {
+    "id": "lerobot/pusht_keypoints",
+    "revision": "ace8c161a68bc025c21a5f29f85b86a9a2c5e64b"
+  },
+  "evaluation": {
+    "episodes": 20,
+    "seed": 1000,
+    "max_steps": 300
+  },
+  "mean_max_reward": 0.4436217414518243,
+  "success_rate": 0.05,
+  "seconds": 27.71077124600015,
+  "episode_results": [
+    {
+      "seed": 1000,
+      "max_reward": 1.0,
+      "success": true
+    },
+    {
+      "seed": 1001,
+      "max_reward": 0.15160941542249873,
+      "success": false
+    },
+    {
+      "seed": 1002,
+      "max_reward": 0.08671888514244548,
+      "success": false
+    },
+    {
+      "seed": 1003,
+      "max_reward": 0.45850852314793356,
+      "success": false
+    },
+    {
+      "seed": 1004,
+      "max_reward": 0.25294181242547853,
+      "success": false
+    },
+    {
+      "seed": 1005,
+      "max_reward": 0.1209266362101279,
+      "success": false
+    },
+    {
+      "seed": 1006,
+      "max_reward": 0.449883708016007,
+      "success": false
+    },
+    {
+      "seed": 1007,
+      "max_reward": 0.468634445998826,
+      "success": false
+    },
+    {
+      "seed": 1008,
+      "max_reward": 0.058192959188614043,
+      "success": false
+    },
+    {
+      "seed": 1009,
+      "max_reward": 0.2761228873343205,
+      "success": false
+    },
+    {
+      "seed": 1010,
+      "max_reward": 0.8324057650839544,
+      "success": false
+    },
+    {
+      "seed": 1011,
+      "max_reward": 0.15067930788992634,
+      "success": false
+    },
+    {
+      "seed": 1012,
+      "max_reward": 0.8216274072371521,
+      "success": false
+    },
+    {
+      "seed": 1013,
+      "max_reward": 0.13520344918159055,
+      "success": false
+    },
+    {
+      "seed": 1014,
+      "max_reward": 0.7314000306575955,
+      "success": false
+    },
+    {
+      "seed": 1015,
+      "max_reward": 0.8412681931196393,
+      "success": false
+    },
+    {
+      "seed": 1016,
+      "max_reward": 0.6123639548331357,
+      "success": false
+    },
+    {
+      "seed": 1017,
+      "max_reward": 0.8132613380353223,
+      "success": false
+    },
+    {
+      "seed": 1018,
+      "max_reward": 0.5147283711797417,
+      "success": false
+    },
+    {
+      "seed": 1019,
+      "max_reward": 0.09595773893217643,
+      "success": false
+    }
+  ]
+}
